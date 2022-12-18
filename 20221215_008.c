@@ -8,7 +8,7 @@ int main()
     printf("Insira a temperatura em Celsius: ");
     scanf("%f", &tempc);
 
-    tempf = (tempc * 9/5);
+    tempf = (tempc * 9/5) + 32;
 
     printf("\Tempertura = %.2f°F\n ", tempf);
 
