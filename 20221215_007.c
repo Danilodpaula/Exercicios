@@ -5,12 +5,12 @@ int main()
     float tempf = 0;
     float tempc = 0;
 
-    printf("Insira a temperatura em Farenheint: ");
-    scanf("%f", &tempf);
+    printf("Insira a temperatura em Celsius: ");
+    scanf("%f", &tempc);
 
-    tempc = (5 * (tempf-32) / 9);
+    tempf = (tempc * 9/5);
 
-    printf("\Tempertura = %.2fC\n ", tempc);
+    printf("\Tempertura = %.2f°F\n ", tempf);
 
     return 0;
 }
